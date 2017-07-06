@@ -1,0 +1,146 @@
+.news-ticker {
+	margin: auto;
+}
+
+ul.news-ticker {
+    width: 100%;
+    height: 240px;
+    overflow: hidden;
+    padding-left: 0px;
+}
+
+ul#upcoming-ticker {
+	max-height: 150px!important;
+}
+
+
+.news-ticker-container {
+	text-align: center;
+        margin-bottom: 20px;
+}
+
+.news-ticker-controller{
+    border-bottom: 1px solid #D7D7D7;
+    border-top: 1px solid #D7D7D7;
+    padding: 5px;    
+}
+
+.news-ticker-controller i {
+    cursor:pointer;
+    color: #B2B2B2;
+    font-size: 2em;
+}
+
+.news-ticker-controller i:hover {
+    cursor:pointer;
+	color: #337AB7;
+}
+
+.news-ticker li {
+    color: #4e4e4e;
+    background: none!important;
+    overflow: hidden;
+    height: auto;
+    padding: 10px;
+    line-height: 20px;
+    font-size: 1.1em;
+    text-align: left;
+    border-bottom: 1px dotted #CBC9C9;
+}
+
+.news-ticker li:hover {
+	background: #FDFDFD;
+}
+
+.news-ticker-controller{
+    font-size: 0.7em;
+}
+
+span.date {
+    font-weight: 600;
+/*    background-color: #E9E9E9;*/
+    padding: 1px 5px;
+    margin-right: 5px;
+/*    border: 1px solid #CBC9C9;*/
+/*    border-radius: 3px;*/
+    color: #4C4D4E;
+}
+
+.news-ticker-controller{
+    height: 30px;
+}
+
+.controller-wrapper{
+    float: left;
+}
+
+.news-archive{
+    float: right;
+}
+
+.news-ticker-header{
+    padding: 5px 15px;
+    background: #F2F2F2;
+    border-bottom: 1px solid #D7D7D7;
+    font-size: 1.3em;
+}
+
+.news-ticker-container{
+    border: 1px solid #E2E2E2;
+}
+
+
+/*Parliament Ticker*/
+
+.parliament-ticker-header{
+       padding: 5px 15px;
+    background: #F2F2F2;
+    border-bottom: 1px solid #D7D7D7;
+    font-size: 1.3em;
+box-shadow: 0px 4px 10px #756F6F;
+}
+
+ul.parliament-ticker{
+    width: 94%;
+}
+
+.parliament-ticker li{
+    background-color: #E9EBF8!important;
+    border-bottom: none;
+}
+
+.parliament-ticker li:nth-child(odd){
+    background-color: #F1F5F6!important;
+}
+
+p.date{
+    font-weight: bold;
+    margin-bottom: 2px!important;
+}
+
+/*Upcoming Ticker*/
+
+.upcoming-ticker-header{
+       padding: 5px 15px;
+    background: #F2F2F2;
+    border-bottom: 1px solid #D7D7D7;
+    font-size: 1.3em;
+/*    box-shadow: 1px 0px 5px;*/
+}
+
+ul.upcoming-ticker{
+    width: 96%;
+}
+
+/*.upcoming-ticker li{
+    border: 1px dotted #BEB3B3;
+    border-radius: 20px;
+    margin: 5px 0;
+}*/
+
+
+
+/*upcoming-ticker*/
+.calender-wrap{
+    display: inline-block;
+}
