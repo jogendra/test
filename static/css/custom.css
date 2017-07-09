@@ -36,6 +36,15 @@ color: #333;
 transition: all .35s;
 }
 
+.fa {
+  padding: 50px;
+  font-size: 50px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
 a:hover,
 a:focus {
 color: #4972AE;
@@ -48,15 +57,6 @@ h4,
 h5,
 h6 {
 font-family: 'Lobster', cursive;
-}
-
-.fa {
-  padding: 20px;
-  font-size: 20px;
-  width: 20px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
 }
 
 .normal-font{
