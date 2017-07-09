@@ -49,6 +49,7 @@ h5,
 h6 {
 font-family: 'Lobster', cursive;
 }
+
 .fa {
   padding: 20px;
   font-size: 20px;
@@ -57,6 +58,7 @@ font-family: 'Lobster', cursive;
   text-decoration: none;
   margin: 5px 2px;
 }
+
 .normal-font{
 font-family: 'arial';
 font-size: 20px;
