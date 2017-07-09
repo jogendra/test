@@ -36,7 +36,7 @@ color: #333;
 transition: all .35s;
 }
 
-.fa {
+a .fa {
   padding: 50px;
   font-size: 50px;
   width: 50px;
