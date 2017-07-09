@@ -49,7 +49,14 @@ h5,
 h6 {
 font-family: 'Lobster', cursive;
 }
-
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
 .normal-font{
 font-family: 'arial';
 font-size: 20px;
@@ -492,12 +499,12 @@ margin-top: 65px;
 background: #F1F1F1;
 }
 
-/* 29/12/2015 additional*/	
+/* 29/12/2015 additional*/
 
 .navbar {
 min-height: 65px!important;}
 
-@media (max-width: 767px){	
+@media (max-width: 767px){
 .navbar-header {
 min-height: 65px!important;
 }
@@ -512,14 +519,14 @@ margin-top: 10px;
 }
 
 .ribbon {
-max-width: 350px; 
-text-align: center; 
-border-bottom: 3px solid #8E1B1B; 
+max-width: 350px;
+text-align: center;
+border-bottom: 3px solid #8E1B1B;
 line-height: 0em;
-margin: 20px auto 30px; 
-} 
+margin: 20px auto 30px;
+}
 
-.ribbon span { 
+.ribbon span {
 background: #8E1B1B;
 border-radius: 10px;
 padding: 1px 10px;
@@ -527,14 +534,14 @@ color: #fff;
 }
 
 .inverse-ribbon {
-max-width: 250px; 
-text-align: center; 
-border-bottom: 3px solid #fff; 
+max-width: 250px;
+text-align: center;
+border-bottom: 3px solid #fff;
 line-height: 0em;
-margin: 20px auto 30px; 
-} 
+margin: 20px auto 30px;
+}
 
-.inverse-ribbon span { 
+.inverse-ribbon span {
 background: #fff;
 border-radius: 10px;
 padding: 1px 10px;
@@ -542,7 +549,7 @@ color: #8E1B1B;
 }
 
 .long-ribbon{
-max-width: 350px; 
+max-width: 350px;
 margin-bottom: 50px;
 }
 
@@ -569,7 +576,7 @@ height:80px;
 .team {
 width:100px;
 height:100px;
-}	
+}
 
 .morphext > .animated {
 display: inline-block;
