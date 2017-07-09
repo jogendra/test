@@ -36,11 +36,13 @@ color: #333;
 transition: all .35s;
 }
 
-a .fa {
-  padding: 50px;
+text-left .fa {
+  padding: 10px;
   font-size: 50px;
   width: 50px;
   text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
 }
 
 a:hover,
