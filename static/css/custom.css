@@ -47,7 +47,7 @@ transition: all .35s;
   color: white;
 }
 #video{
-  position: center;
+  vertical-align: middle;
 }
 a:hover,
 a:focus {
