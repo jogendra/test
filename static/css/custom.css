@@ -46,9 +46,7 @@ transition: all .35s;
   border-radius: 50%;
   color: white;
 }
-#video{
-  vertical-align: middle;
-}
+
 a:hover,
 a:focus {
 color: #4972AE;
