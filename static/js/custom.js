@@ -24,8 +24,8 @@ $(function() {
         } );
 
 var nt_example1 = $('#upcoming-ticker').newsTicker({
-                row_height: 70,
-                max_rows: 4,
+                row_height: 60,
+                max_rows: 5,
                 duration: 3000,
                 prevButton: $('#upcoming-ticker-prev'),
                 nextButton: $('#upcoming-ticker-next'),
