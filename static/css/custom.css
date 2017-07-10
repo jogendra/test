@@ -218,7 +218,7 @@ background-size: cover;
 header .header-content {
 position: relative;
 width: 100%;
-padding: 100px 15px;
+padding: 15px 15px;
 text-align: center;
 }
 
@@ -560,8 +560,8 @@ padding-left: 2px;
 color: #8E1B1B;
 -webkit-transition: all 0.35s ease;
 -moz-transition: all 0.35s ease;
--o-transition: all 0.35s ease;
 -ms-transition: all 0.35s ease;
+-o-transition: all 0.35s ease;
 }
 
 .navbar-default.affix .navbar-header .navbar-brand .iit-heading{
