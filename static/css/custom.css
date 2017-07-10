@@ -44,8 +44,11 @@ transition: all .35s;
   text-decoration: none;
   margin: 5px 2px;
   border-radius: 50%;
+  color: white;
 }
-
+#video{
+  position: center;
+}
 a:hover,
 a:focus {
 color: #4972AE;
