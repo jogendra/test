@@ -26,7 +26,7 @@ $(function() {
 var nt_example1 = $('#upcoming-ticker').newsTicker({
                 row_height: 65,
                 max_rows: 5,
-                duration: 3000,
+                duration: 10000,
                 prevButton: $('#upcoming-ticker-prev'),
                 nextButton: $('#upcoming-ticker-next'),
             });
