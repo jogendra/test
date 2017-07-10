@@ -25,12 +25,12 @@ $(function() {
 
 var nt_example1 = $('#upcoming-ticker').newsTicker({
                 row_height: 70,
-                max_rows: 8,
-                duration: 3000000,
+                max_rows: 4,
+                duration: 3000,
                 prevButton: $('#upcoming-ticker-prev'),
                 nextButton: $('#upcoming-ticker-next'),
             });
-   
+
 $('.dropdown').hover(function() {
 	$('.dropdown-toggle').dropdown("toggle");
 }, function() {
