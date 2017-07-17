@@ -16,9 +16,8 @@ urlpatterns = [
     url(r'^clubs/sae_collegiate$', 'website.views.sae', name='sae'),
     url(r'^clubs/cef$', 'website.views.cef', name='cef'),
     url(r'^teams/baja$', 'website.views.sae_baja', name='sae-baja'),
-    url(r'^teams/vocowsa$', 'website.views.vocowsa', name='vocowsa'),
+    url(r'^teams/vocowa$', 'website.views.vocowa', name='vocowa'),
     url(r'^teams/auv$', 'website.views.auv', name='auv'),
     url(r'^app/$', 'website.views.app', name='app'),
-    url(r'^technex/$', 'website.views.technex', name='technex'),
     url(r'^admin/', include(admin.site.urls)),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
