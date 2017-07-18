@@ -226,9 +226,7 @@ text-align: center;
 
 @media(min-width:768px) {
 header {
-height: -o-calc(100% - 25px); /* opera */
-height: -webkit-calc(100% - 25px); /* google, safari */
-height: -moz-calc(100% - 25px); /* firefox */
+min-height: 650px;
 }
 
 header .header-content {

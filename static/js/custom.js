@@ -17,7 +17,7 @@ $(function() {
     })
 
 $("header").bgswitcher({
-  images: ["/static/img/header.jpg", "/static/img/header.jpg", "/static/img/header.jpg", "/static/img/header.jpg"],
+  images: ["/static/img/header.jpg", "/static/img/favicon.ico"],
   effect: "fade",
   interval: 4000,
   duration: 1000
