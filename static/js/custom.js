@@ -16,6 +16,12 @@ $(function() {
         offset: 65
     })
 
+$("header").bgswitcher({
+  images: ["/static/img/header.jpg", "/static/img/header.jpg", "/static/img/header.jpg", "/static/img/header.jpg"],
+  effect: "fade",
+  interval: 4000,
+  duration: 1000
+});
     // Fit Text Plugin for Main Header
     $("#caption-text").fitText(
         1.4, {

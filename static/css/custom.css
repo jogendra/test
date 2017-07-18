@@ -226,7 +226,9 @@ text-align: center;
 
 @media(min-width:768px) {
 header {
-min-height: 650px;
+height: -o-calc(100% - 25px); /* opera */
+height: -webkit-calc(100% - 25px); /* google, safari */
+height: -moz-calc(100% - 25px); /* firefox */
 }
 
 header .header-content {
@@ -571,13 +573,13 @@ color: #8E1B1B;
 }
 
 .club {
-width:120px;
-height:100px;
+width:140px;
+height:110px;
 }
 
 .team {
-width:100px;
-height:100px;
+width:110px;
+height:110px;
 }
 
 .morphext > .animated {
