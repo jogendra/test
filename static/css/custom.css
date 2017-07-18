@@ -32,7 +32,9 @@ transition: all .35s;
 }
 
 #social-media .fa {
-  padding: 10px;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-bottom: 10px;
   font-size: 35px;
   text-align: center;
   text-decoration: none;
@@ -69,9 +71,9 @@ line-height: 1.75;
 
 .bg-primary {
 background-color: #8E1B1B;
-height: -o-calc(100% - 65px); /* opera */
-height: -webkit-calc(100% - 65px); /* google, safari */
-height: -moz-calc(100% - 65px); /* firefox */
+/*height: -o-calc(100% - 65px);
+height: -webkit-calc(100% - 65px);
+height: -moz-calc(100% - 65px); firefox */
 }
 
 .text-faded {
