@@ -226,7 +226,7 @@ text-align: center;
 
 @media(min-width:768px) {
 header {
-min-height: 500px;
+min-height: 750px;
 }
 
 header .header-content {
