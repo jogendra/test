@@ -103,7 +103,7 @@ margin-top: 15px;
 
 .navbar-default {
 border-color: rgba(34,34,34,.05);
-font-family: 'Arial', sans-serif ;
+font-family: 'Open Sans', sans-serif;
 background-color: #fff;
 -webkit-transition: all .35s;
 -moz-transition: all .35s;
@@ -533,7 +533,7 @@ padding: 15px 30px;
 
   .navbar-default {
   border-color: rgba(34,34,34,.05);
-  font-family: 'Arial', sans-serif ;
+  font-family: 'Open Sans', sans-serif;
   background-color: #fff;
   -webkit-transition: all .35s;
   -moz-transition: all .35s;
