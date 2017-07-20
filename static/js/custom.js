@@ -45,14 +45,6 @@ $('#corner').hover(function() {
   $(this).find('.dropdown-menu').first().stop(true, true).delay(80).slideUp();
 });
 
-$('#snapshot').hover(function() {
-	/*$('#sntc_corner').dropdown("toggle");*/
-  $(this).find('.dropdown-menu').first().stop(true, true).delay(100).slideDown();
-}, function() {
-/*$('#sntc_corner').dropdown("toggle");*/
-  $(this).find('.dropdown-menu').first().stop(true, true).delay(80).slideUp();
-});
-
  // Offset for Main Navigation
     $('#mainNav').affix({
         offset: {
