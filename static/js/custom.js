@@ -37,10 +37,10 @@ var nt_example1 = $('#upcoming-ticker').newsTicker({
                 nextButton: $('#upcoming-ticker-next'),
             });
 
-$('.dropdown').hover(function() {
-	$('.dropdown-toggle').dropdown("toggle");
+$('#corner').hover(function() {
+	$('#sntc_corner').dropdown("toggle");
 }, function() {
-$('.dropdown-toggle').dropdown("toggle");
+$('#sntc_corner').dropdown("toggle");
 });
 
  // Offset for Main Navigation
