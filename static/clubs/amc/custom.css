@@ -322,16 +322,6 @@ font-size: 14px;
 color: #8E1B1B;
 }
 
-.club {
-width:140px;
-height:110px;
-}
-
-.team {
-width:110px;
-height:110px;
-}
-
 .morphext > .animated {
 display: inline-block;
 }
@@ -436,6 +426,17 @@ position: relative;
 width: 100%;
 padding: 100px 15px;
 text-align: center;
+}
+
+#caption-text {
+position: absolute;
+bottom: 0;
+right: 15px;
+font-size: 2.6em;
+margin-bottom: 5px;
+-webkit-transition: all .35s;
+-moz-transition: all .35s;
+transition: all .35s;
 }
 
 .btn-primary {
