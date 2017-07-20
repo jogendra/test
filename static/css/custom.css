@@ -518,7 +518,7 @@ font-size: 24px;
 padding: 15px 30px;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 375px) {
   .navbar-toggle {
   margin-top: 15px;
   }
@@ -539,4 +539,30 @@ padding: 15px 30px;
   color: #8E1B1B;
   font-size: 17px;
   }
+
+  .club {
+  width:70px;
+  height:55px;
+  }
+
+  .team {
+  width:55px;
+  height:55px;
+  }
+
+  #social-media .fa {
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 30px;
+  }
+  h2{
+    font-size: 25px;
+  }
+  p {
+  margin-bottom: 20px;
+  font-size: 20px;
+  line-height: 1.5;
+  }
+
 }
