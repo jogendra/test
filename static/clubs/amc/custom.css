@@ -338,6 +338,10 @@ font-size: 14px;
 color: #8E1B1B;
 }
 
+.img-circle{
+  width:140px;
+}
+
 .morphext > .animated {
 display: inline-block;
 }
@@ -517,4 +521,53 @@ font-size: 24px;
 
 .btn-xl {
 padding: 15px 30px;
+}
+
+@media only screen and (max-width: 375px) {
+  .navbar-toggle {
+  margin-top: 15px;
+  }
+
+  .navbar-default {
+  border-color: rgba(34,34,34,.05);
+  font-family: 'Arial', sans-serif ;
+  background-color: #fff;
+  -webkit-transition: all .35s;
+  -moz-transition: all .35s;
+  transition: all .35s;
+  }
+
+  .navbar-default .navbar-header .navbar-brand {
+  font-family: 'Lobster', cursive;
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: #8E1B1B;
+  font-size: 17px;
+  }
+
+  #social-media .fa {
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 30px;
+  }
+
+  h2{
+    font-size: 25px;
+  }
+
+  p {
+  margin-bottom: 20px;
+  font-size: 20px;
+  line-height: 1.5;
+  }
+
+  h4{
+    font-size: 16px;
+  }
+
+  .img-circle{
+    width:100px;
+  }
+  
 }
