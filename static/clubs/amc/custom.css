@@ -65,8 +65,8 @@ letter-spacing: 0px;
 
 p {
 margin-bottom: 20px;
-font-size: 23px;
-line-height: 1.65;
+font-size: 22px;
+line-height: 1.5;
 text-align: justify;
 }
 
@@ -566,11 +566,6 @@ padding: 15px 30px;
   .img-circle{
     width:100px;
   }
-}
-
-#projects{
-padding-top: 40px;
-padding-bottom: 40px;
 }
 
 .portfolio-box {
