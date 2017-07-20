@@ -166,19 +166,35 @@ color: #000;
 .navbar-default .nav>li>a:focus:hover {
 color: rgb(193, 41, 41);
 }
+
+.navbar-default.affix {
+border-color: rgba(34,34,34,.05);
+background-color: #fff;
 }
 
-@media (max-width: @screen-sm) {
-  .navbar-default .navbar-header .navbar-brand {
-  font-family: 'Lobster', cursive;
-  letter-spacing: 1px;
-  font-weight: 100;
-  color: #8E1B1B;
-  font-size: 14px;
-  }
-  header{
-    height:300px;
-  }
+.navbar-default.affix .navbar-header .navbar-brand {
+font-size: 20px;
+color: #8E1B1B;
+}
+
+.navbar-default.affix .navbar-header .navbar-brand .normal-font{
+font-size: 18px;
+}
+
+.navbar-default.affix .navbar-header .navbar-brand:hover,
+.navbar-default.affix .navbar-header .navbar-brand:focus {
+color: #eb3812;
+}
+
+.navbar-default.affix .nav > li>a,
+.navbar-default.affix .nav>li>a:focus {
+color: #222;
+}
+
+.navbar-default.affix .nav > li>a:hover,
+.navbar-default.affix .nav>li>a:focus:hover {
+color: #8E1B1B;
+}
 }
 
 header {

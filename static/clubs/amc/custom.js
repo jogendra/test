@@ -23,31 +23,12 @@ $("header").bgswitcher({
   duration: 1000
 });
 
-$('#upcoming-ticker').newsTicker({
-                row_height: 65,
-                max_rows: 5,
-                duration: 10000,
-                prevButton: $('#upcoming-ticker-prev'),
-                nextButton: $('#upcoming-ticker-next'),
-});
-
 $('#clubs').hover(function() {
   $(this).find('.dropdown-menu').first().stop(true, true).delay(100).slideDown();
 }, function() {
   $(this).find('.dropdown-menu').first().stop(true, true).delay(80).slideUp();
 });
 
-$('#teams').hover(function() {
-  $(this).find('.dropdown-menu').first().stop(true, true).delay(100).slideDown();
-}, function() {
-  $(this).find('.dropdown-menu').first().stop(true, true).delay(80).slideUp();
-});
-
-$('#sntc_snapshot').hover(function() {
-	 $("#snapshot").collapse("show");
-}, function() {
-  $("#snapshot").collapse("hide");
-});
 
  // Offset for Main Navigation
     $('#mainNav').affix({
