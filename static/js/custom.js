@@ -22,27 +22,25 @@ $("header").bgswitcher({
   interval: 4000,
   duration: 1000
 });
-    // Fit Text Plugin for Main Header
-    $("#caption-text").fitText(
-        1.4, {
-            minFontSize: '5px',
-            maxFontSize: '26px'
-        } );
 
-var nt_example1 = $('#upcoming-ticker').newsTicker({
+$('#upcoming-ticker').newsTicker({
                 row_height: 65,
                 max_rows: 5,
                 duration: 10000,
                 prevButton: $('#upcoming-ticker-prev'),
                 nextButton: $('#upcoming-ticker-next'),
-            });
+});
 
 $('#corner').hover(function() {
-	/*$('#sntc_corner').dropdown("toggle");*/
   $(this).find('.dropdown-menu').first().stop(true, true).delay(100).slideDown();
 }, function() {
-/*$('#sntc_corner').dropdown("toggle");*/
   $(this).find('.dropdown-menu').first().stop(true, true).delay(80).slideUp();
+});
+
+$('#sntc_snapshot').hover(function() {
+	 $("#snapshot").collapse("show");
+}, function() {
+  $("#snapshot").collapse("hide");
 });
 
  // Offset for Main Navigation
