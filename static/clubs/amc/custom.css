@@ -65,8 +65,8 @@ letter-spacing: 0px;
 
 p {
 margin-bottom: 20px;
-font-size: 25px;
-line-height: 1.75;
+font-size: 23px;
+line-height: 1.65;
 }
 
 .bg-primary {
@@ -203,7 +203,7 @@ width: 100%;
 min-height: auto;
 text-align: center;
 color: #fff;
-background-image: url('/static/img/header.jpg');
+background-image: url('/static/clubs/amc/img/header.jpg');
 background-position: center;
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -569,5 +569,5 @@ padding: 15px 30px;
   .img-circle{
     width:100px;
   }
-  
+
 }
