@@ -348,6 +348,10 @@ width:110px;
 height:110px;
 }
 
+.img-circle{
+  width:140px;
+}
+
 .morphext > .animated {
 display: inline-block;
 }
@@ -564,5 +568,10 @@ padding: 15px 30px;
   font-size: 20px;
   line-height: 1.5;
   }
-
+  h4{
+    font-size: 16px;
+  }
+  .img-circle{
+    width:100px;
+  }
 }
