@@ -80,6 +80,9 @@ font-size: 20px;
 line-height: 1.5;
 text-align: justify;
 }
+#workshops a{
+color: blue;
+}
 
 .bg-primary {
 background-color: #8E1B1B;
