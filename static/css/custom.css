@@ -20,6 +20,10 @@ border-color: #8E1B1B;
 border-width: 3px;
 }
 
+ul {
+  list-style-type: none;
+}
+
 hr.light {
 border-color: #fff;
 }
