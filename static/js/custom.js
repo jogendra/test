@@ -38,9 +38,11 @@ var nt_example1 = $('#upcoming-ticker').newsTicker({
             });
 
 $('#corner').hover(function() {
-	$('#sntc_corner').dropdown("toggle");
+	/*$('#sntc_corner').dropdown("toggle");*/
+  $(this).find('.dropdown-menu').first().stop(true, true).delay(100).slideDown();
 }, function() {
-$('#sntc_corner').dropdown("toggle");
+/*$('#sntc_corner').dropdown("toggle");*/
+  $(this).find('.dropdown-menu').first().stop(true, true).delay(80).slideUp();
 });
 
  // Offset for Main Navigation
