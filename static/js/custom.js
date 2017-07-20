@@ -43,12 +43,6 @@ $('#corner').hover(function() {
 $('#sntc_corner').dropdown("toggle");
 });
 
-$('#snapshot').hover(function() {
-	$('#sntc_snapshot').dropdown("toggle");
-}, function() {
-$('#sntc_snapshot').dropdown("toggle");
-});
-
  // Offset for Main Navigation
     $('#mainNav').affix({
         offset: {
