@@ -11,6 +11,10 @@ font-family: 'Open Sans', sans-serif;
 #about p{
 font-family: 'Lobster', cursive;
 text-align: justify;
+margin-bottom: 20px;
+font-size: 25px;
+line-height: 1.75;
+text-align: justify;
 }
 
 hr {
@@ -63,9 +67,16 @@ font-size: 20px;
 letter-spacing: 0px;
 }
 
-p {
+#vision p{
 margin-bottom: 20px;
-font-size: 22px;
+font-size: 20px;
+line-height: 1.5;
+text-align: justify;
+}
+
+#workshops p{
+margin-bottom: 20px;
+font-size: 20px;
 line-height: 1.5;
 text-align: justify;
 }
