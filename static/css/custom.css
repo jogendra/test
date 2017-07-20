@@ -218,6 +218,7 @@ height: -o-calc(100% - 65px); /* opera */
 height: -webkit-calc(100% - 65px); /* google, safari */
 height: -moz-calc(100% - 65px); /* firefox */
 }
+}
 
 .section-heading {
 margin-top: 0;
