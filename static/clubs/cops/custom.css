@@ -8,7 +8,7 @@ body {
 font-family: 'Open Sans', sans-serif;
 }
 
-#about p{
+#about p,li{
 font-family: 'Lobster', cursive;
 text-align: justify;
 }
