@@ -14,7 +14,7 @@ text-align: justify;
 }
 
 #about h2{
-display: inline-block; 
+display: inline-block;
 }
 
 hr {
@@ -347,7 +347,7 @@ color: #8E1B1B;
 
 .club {
 width:auto;
-height:10px;
+height:100px;
 }
 
 .team {
