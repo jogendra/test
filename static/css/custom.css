@@ -343,12 +343,12 @@ color: #8E1B1B;
 }
 
 .club {
-width:140px;
-height:110px;
+width:auto;
+height:120px;
 }
 
 .team {
-width:110px;
+width:auto;
 height:110px;
 }
 
@@ -546,16 +546,6 @@ padding: 15px 30px;
   font-weight: 500;
   color: #8E1B1B;
   font-size: 17px;
-  }
-
-  .club {
-  width:100px;
-  height:80px;
-  }
-
-  .team {
-  width:80px;
-  height:80px;
   }
 
   #social-media .fa {
