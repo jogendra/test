@@ -13,6 +13,10 @@ font-family: 'Lobster', cursive;
 text-align: justify;
 }
 
+#about h2{
+  display: inline-block;
+}
+
 p {
   margin-bottom: 20px;
   font-size: 25px;
@@ -20,11 +24,11 @@ p {
 }
 
 hr {
-max-width: 350px;
-margin-top: 0px!important;
+margin-top: 10px!important;
 border-color: #8E1B1B;
 border-width: 3px;
 }
+
 
 hr.light {
 border-color: #fff;
