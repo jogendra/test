@@ -8,9 +8,15 @@ body {
 font-family: 'Open Sans', sans-serif;
 }
 
-#about p,li{
+#about p{
 font-family: 'Lobster', cursive;
 text-align: justify;
+}
+
+#about li{
+font-family: 'Lobster', cursive;
+font-size: 25px;
+line-height: 1.75;
 }
 
 p {
@@ -82,6 +88,7 @@ font-size: 20px;
 line-height: 1.5;
 text-align: justify;
 }
+
 .lead{
   font-size: 20px;
 }
