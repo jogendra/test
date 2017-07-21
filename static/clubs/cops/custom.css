@@ -13,16 +13,6 @@ font-family: 'Lobster', cursive;
 text-align: justify;
 }
 
-#about li{
-font-family: 'Lobster', cursive;
-font-size: 25px;
-line-height: 1.75;
-}
-
-#groups{
-  margin-bottom: 20px;
-}
-
 p {
   margin-bottom: 20px;
   font-size: 25px;
@@ -92,7 +82,6 @@ font-size: 20px;
 line-height: 1.5;
 text-align: justify;
 }
-
 .lead{
   font-size: 20px;
 }
@@ -587,15 +576,6 @@ padding: 15px 30px;
   margin-bottom: 20px;
   font-size: 20px;
   line-height: 1.5;
-  }
-
-  #about li{
-    font-size: 20px;
-    line-height: 1.5;
-  }
-  
-  #groups{
-    margin-bottom: 20px;
   }
 
   h4{
