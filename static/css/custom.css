@@ -13,9 +13,12 @@ font-family: 'Lobster', cursive;
 text-align: justify;
 }
 
+#about h2{
+display: inline-block; 
+}
+
 hr {
-max-width: 350px;
-margin-top: 0px!important;
+margin-top: 10px!important;
 border-color: #8E1B1B;
 border-width: 3px;
 }
@@ -344,12 +347,12 @@ color: #8E1B1B;
 
 .club {
 width:auto;
-height:120px;
+height:10px;
 }
 
 .team {
 width:auto;
-height:110px;
+height:100px;
 }
 
 .img-circle{
