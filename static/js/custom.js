@@ -37,10 +37,10 @@ $('#corner').hover(function() {
   $(this).find('.dropdown-menu').first().stop(true, true).delay(80).slideUp();
 });
 
-$('#sntc_snapshot').hover(function() {
-	 $("#snapshot").collapse("show");
+$('#snapshot').hover(function() {
+	$(this).find('.dropdown-menu').first().stop(true, true).delay(100).slideDown();
 }, function() {
-  $("#snapshot").collapse("hide");
+  $(this).find('.dropdown-menu').first().stop(true, true).delay(100).slideDown();
 });
 
  // Offset for Main Navigation
