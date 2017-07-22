@@ -32,17 +32,22 @@ $('#upcoming-ticker').newsTicker({
 });
 
 $('#corner').hover(function() {
-  $(this).find('.dropdown-menu').first().stop(true, true).delay(100).slideDown();
+  $('#menu').first().stop(true, true).delay(100).slideDown();
 }, function() {
-  $(this).find('.dropdown-menu').first().stop(true, true).delay(80).slideUp();
+  $('#menu').first().stop(true, true).delay(80).slideUp();
 });
 
 $('#snapshot').hover(function() {
 	$(this).find('.dropdown-menu').first().stop(true, true).delay(100).slideDown();
 }, function() {
-  $(this).find('.dropdown-menu').first().stop(true, true).delay(100).slideDown();
+  $(this).find('.dropdown-menu').first().stop(true, true).delay(80).slideUp();
 });
 
+$('.test').on("click", function(e){
+    $('#ul').toggle();
+    e.stopPropagation();
+    e.preventDefault();
+  });
  // Offset for Main Navigation
     $('#mainNav').affix({
         offset: {
