@@ -16,6 +16,14 @@ text-align: justify;
 #about h2{
   display: inline-block;
 }
+@media (max-width: 1024px)
+{
+    br
+    {
+        display: none;
+    }
+}
+
 
 p {
   margin-bottom: 20px;

@@ -12,6 +12,13 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Lobster', cursive;
 text-align: justify;
 }
+@media (max-width: 1024px)
+{
+    br
+    {
+        display: none;
+    }
+}
 
 #about h2{
   display: inline-block;
