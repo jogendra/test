@@ -18,11 +18,12 @@ text-align: justify;
 }
 @media (max-width: 1024px)
 {
-    br
+    #about br
     {
         display: none;
     }
 }
+
 
 p {
   margin-bottom: 20px;
