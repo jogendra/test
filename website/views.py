@@ -25,8 +25,8 @@ def robotics(request):
 def sae(request):
 	return render(request, 'sae.html', {})
 
-def sae_baja(request):
-	return render(request, 'sae-baja.html', {})
+def baja(request):
+	return render(request, 'baja.html', {})
 
 def vocowa(request):
 	return render(request, 'vocowa.html', {})
