@@ -25,8 +25,8 @@ def robotics(request):
 def sae(request):
 	return render(request, 'sae.html', {})
 
-def baja(request):
-	return render(request, 'baja.html', {})
+def trident(request):
+	return render(request, 'trident.html', {})
 
 def vocowa(request):
 	return render(request, 'vocowa.html', {})
